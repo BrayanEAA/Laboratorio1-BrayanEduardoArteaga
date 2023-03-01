@@ -15,7 +15,7 @@ namespace lab.Negocio
         {
             public static string CalcularIMC(Persona persona)
             {
-                double imc = persona.Peso / (persona.Altura * persona.Altura);
+                double imc = persona.Peso / (persona.Altura * 2);
                 if (imc < 24)
                 {
                     return "Peso ideal";
