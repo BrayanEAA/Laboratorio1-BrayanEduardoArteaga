@@ -21,7 +21,7 @@ namespace EjercicioPersona.Presentacion
             Console.WriteLine("Ingrese el peso (kg):");
             double peso = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Ingrese la altura (m):");
+            Console.WriteLine("Ingrese la altura con decimales 0.00 (m):");
             double altura = double.Parse(Console.ReadLine());
 
             Persona persona = new Persona(nombre, edad, sexo, peso, altura);
